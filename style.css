@@ -1,0 +1,166 @@
+/* CSS */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #000;
+}
+
+h1, h2, th {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+h2 {
+  color: #245A81;
+}
+
+th {
+  color: #FFFFFF;
+  background-color: #245A81;
+  text-transform: capitalize;
+  padding: 24px; /* Adjusted padding */
+  text-align: left;
+  border: 1px solid #000000; /* Border style */
+}
+
+td {
+  padding-left: 24px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border-collapse: collapse;
+  border: 1px solid #000000; /* Border style */
+  text-align: left;
+  font: normal normal bold 20px/27px 'Segoe UI';
+  color: #245A81;
+  text-transform: capitalize;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.border-solid-black {
+  border: 2px solid #a78a8a;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.mg-b-9 {
+  margin-bottom: 9px;
+}
+
+.em-like-bold {
+  font-style: italic;
+  font-weight: bold;
+}
+
+main {
+  margin: 8px;
+}
+
+footer {
+  padding: 20px;
+  background-color: wheat;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+img {
+  margin-right: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100px;
+}
+
+/* Additional styles for the table */
+.page {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 800px;
+  position: relative;
+}
+
+.header {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 68px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  position: absolute;
+}
+
+.rocket {
+  top: 10px;
+  left: 17px;
+  width: 134px;
+  height: 47px;
+  position: absolute;
+  opacity: 1;
+}
+
+.gistec {
+  top: 14px;
+  left: 1176px;
+  width: 82px;
+  height: 41px;
+  position: absolute;
+  opacity: 1;
+}
+
+.table {
+  padding-top: 58px;
+  padding-bottom: 60px;
+  padding-right: 45px;
+  padding-left: 64px;
+  border-collapse: collapse;
+}
+
+tr th {
+  width: 237.8px;
+  background: #245A81;
+  color: #ffffff;
+  text-align: left;
+  padding: 24px; /* Adjusted padding */
+  border: 1px solid #000; /* Border style */
+}
+
+tr:nth-of-type(even) {
+  background: #EEEEEE;
+}
+
+tr {
+  border-collapse: collapse;
+  border: 1px solid #000; /* Border style */
+}
+
+td {
+  padding-left: 24px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border-collapse: collapse;
+  border: 1px solid #000; /* Border style */
+  text-align: left;
+  font: normal normal bold 20px/27px 'Segoe UI';
+  color: #245A81;
+  text-transform: capitalize;
+}
